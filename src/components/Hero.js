@@ -7,7 +7,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { FiArrowUpRight, FiCode } from "react-icons/fi";
-import { SiReact, SiDotnet, SiMicrosoftsqlserver, SiAngular } from "react-icons/si";
+import { SiReact, SiDotnet, SiMicrosoftsqlserver } from "react-icons/si";
 
 const Hero = () => {
   return (
@@ -41,8 +41,10 @@ const Hero = () => {
 
             {/* Subtext */}
             <p className="text-base sm:text-lg text-slate-400 max-w-xl leading-relaxed mb-8">
-              Passionate about building scalable, high-performance web applications from database architecture to intuitive user interfaces. 
-              Proficient in <span className="text-indigo-400 font-semibold">React.js</span>,{" "}
+              Passionate about building scalable, high-performance web
+              applications from database architecture to intuitive user
+              interfaces. Proficient in{" "}
+              <span className="text-indigo-400 font-semibold">React.js</span>,{" "}
               <span className="text-cyan-400 font-semibold">Angular</span>,{" "}
               <span className="text-purple-400 font-semibold">.NET</span>, and{" "}
               <span className="text-sky-400 font-semibold">SQL</span>.
@@ -118,11 +120,15 @@ const Hero = () => {
                   <p className="text-slate-400 text-xs">Featured Apps</p>
                 </div>
                 <div>
-                  <span className="font-bold text-indigo-400 text-base">Full Stack</span>
+                  <span className="font-bold text-indigo-400 text-base">
+                    Full Stack
+                  </span>
                   <p className="text-slate-400 text-xs">Architecture</p>
                 </div>
                 <div>
-                  <span className="font-bold text-emerald-400 text-base">100%</span>
+                  <span className="font-bold text-emerald-400 text-base">
+                    100%
+                  </span>
                   <p className="text-slate-400 text-xs">Commitment</p>
                 </div>
               </div>
@@ -157,20 +163,35 @@ const Hero = () => {
                 </div>
 
                 {/* Floating Micro Badge 1 */}
-                <div className="absolute -left-4 top-1/4 glass-panel px-3.5 py-2 rounded-xl flex items-center gap-2 shadow-card border border-white/10 animate-float" style={{ animationDelay: '1s' }}>
-                  <SiReact className="text-cyan-400 text-xl animate-spin" style={{ animationDuration: '10s' }} />
+                <div
+                  className="absolute -left-4 top-1/4 glass-panel px-3.5 py-2 rounded-xl flex items-center gap-2 shadow-card border border-white/10 animate-float"
+                  style={{ animationDelay: "1s" }}
+                >
+                  <SiReact
+                    className="text-cyan-400 text-xl animate-spin"
+                    style={{ animationDuration: "10s" }}
+                  />
                   <div>
-                    <p className="text-xs font-bold text-white leading-none">React & Angular</p>
+                    <p className="text-xs font-bold text-white leading-none">
+                      React & Angular
+                    </p>
                     <p className="text-[10px] text-slate-400">Client-Side UI</p>
                   </div>
                 </div>
 
                 {/* Floating Micro Badge 2 */}
-                <div className="absolute -right-4 bottom-1/4 glass-panel px-3.5 py-2 rounded-xl flex items-center gap-2 shadow-card border border-white/10 animate-float" style={{ animationDelay: '2.5s' }}>
+                <div
+                  className="absolute -right-4 bottom-1/4 glass-panel px-3.5 py-2 rounded-xl flex items-center gap-2 shadow-card border border-white/10 animate-float"
+                  style={{ animationDelay: "2.5s" }}
+                >
                   <SiDotnet className="text-purple-400 text-xl" />
                   <div>
-                    <p className="text-xs font-bold text-white leading-none">.NET & SQL</p>
-                    <p className="text-[10px] text-slate-400">Backend & Database</p>
+                    <p className="text-xs font-bold text-white leading-none">
+                      .NET & SQL
+                    </p>
+                    <p className="text-[10px] text-slate-400">
+                      Backend & Database
+                    </p>
                   </div>
                 </div>
 
